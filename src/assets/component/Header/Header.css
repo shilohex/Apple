@@ -2,16 +2,19 @@
   display: flex;
   background-color: black;
   color: azure;
-  flex-direction: column;
   padding: 10px;
+  margin: 0px auto;
+  margin-top: 2vh;
+  justify-content: center;
 }
 #comp .nav {
+  width: 50%;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   border: 1px solid red;
 }
-#comp #img {
-  width: 500px;
-  height: 500px;
+img {
+  width: 20px;
+  height: 20px;
 }

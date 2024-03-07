@@ -3,9 +3,9 @@ import "./Header.css";
 const Header = () => {
   return (
     <>
-      <img src="/resources/apple.svg" alt="" />
       <div id="comp">
         <div className="nav">
+          <img src="\resources\applegrey.svg" alt="" />
           <p>Store</p>
           <p>Mac</p>
           <p>ipad</p>
