@@ -1,27 +1,18 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Header from "./assets/component/Header/Header";
+import Home from "./pages/Home";
+import Mac from "./pages/Mac";
+import Ipad from "./pages/Ipad";
 
 function App() {
   return (
-    <>
-      <div className="top">
-        <p>
-          Choose another country or region to see content specific to your
-          location.
-        </p>
-        <div>
-          <label for="dropdown"></label>
-          <select id="dropdown" name="">
-            <option value="Nigeria"> Nigeria </option>
-            <option value="other country or region">
-              other country or region
-            </option>
-          </select>
-        </div>
-        <div>continue</div>
-      </div>
-      <Header />
-    </>
+   <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />}/> 
+      <Route path="/mac" element={<Mac />}/> 
+      <Route path="/ipad" element={<Ipad />}/> 
+    </Routes>
+   </BrowserRouter>
   );
 }
 
