@@ -37,19 +37,29 @@ const Header = ({ bgcol, txtcol }) => {
             {" "}
             <b>MacBook Pro </b>
           </h1>
-          <div>
-            <p>Mind blowing. Head-turning.</p>
-          </div>
+          <p>Mind blowing. Head-turning.</p>
           <div>
             <nav>
               <a href="Learn more >"> Learn more {">"}</a>
             </nav>
           </div>
-          <div>
-            <img src="" alt="" />
-          </div>
         </div>
       </div>
+
+      <section className="imgm">
+        <div>
+          <img src="src\assets\hero_mbp__fx6ku12vgw2m_largetall.jpg" alt="" />
+        </div>
+      </section>
+      <section className="Imac">
+        <div>
+          <h1>iMac</h1>
+          <p>Packed with more juice.</p>
+          <nav>
+            <a href="Learn more >"> Learn more {">"}</a>
+          </nav>
+        </div>
+      </section>
     </>
   );
 };
