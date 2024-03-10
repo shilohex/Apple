@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import blacklogo from "../../assets/blacklogo2.svg";
+import large from "../../assets/mac.jpg"
 
 const Header = ({ bgcol, txtcol }) => {
   return (
@@ -48,7 +49,7 @@ const Header = ({ bgcol, txtcol }) => {
 
       <section className="imgm">
         <div>
-          <img src="src\assets\hero_mbp__fx6ku12vgw2m_largetall.jpg" alt="" />
+          <img className="" width={"500px"} src={large} alt="" />
         </div>
       </section>
       <section className="Imac">
