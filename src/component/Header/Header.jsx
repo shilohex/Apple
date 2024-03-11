@@ -24,7 +24,33 @@ const Header = ({ bgcol, txtcol }) => {
             <p>ipad</p>
           </Link>
           <p>iphone</p>
-          <p>Support</p>
+          <Link to={"/support"} id="Support">
+            <p>Support</p>
+            <div class="dropdown" id="dropdown">
+              <div id="drop">
+                <div className="dropdown1">
+                  <p className="drop2">Explore Support</p>
+                  <p className="drop3">iphone</p>
+                  <p className="drop3">Mac</p>
+                  <p className="drop3">iPad</p>
+                  <p className="drop3">Music </p>
+                  <p className="drop4">Explore Support</p>
+                </div>
+                <div className="dropdown1">
+                  <p className="drop2">Get Help</p>
+                  <p className="drop4">Communities</p>
+                  <p className="drop4">Check Coverage</p>
+                  <p className="drop4">Contact Us</p>
+                </div>
+                <div className="dropdown1">
+                  <p className="drop2">Helpful Topics</p>
+                  <p className="drop4">Apple ID & Password</p>
+                  <p className="drop4">Billing & Subscriptions</p>
+                  <p className="drop4">Find My</p>
+                </div>
+              </div>
+            </div>
+          </Link>
           <p>Where to Buy</p>
           <div className="img2">
             <img src="src\assets\magnifying-glass-solid.svg" alt="" />

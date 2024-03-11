@@ -31,53 +31,36 @@
   padding: 5px;
 }
 
-/* MACBOOK */
-#mac {
+.header #comp2 {
   display: flex;
-  text-align: center;
+  background-color: #3f4144;
+  color: #bcbdbf;
+  padding: 10px;
+  margin: 0px auto;
   justify-content: center;
-  margin-top: 10vh;
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
-#mac h1 {
-  font-size: 7vh;
-  line-height: 25px;
-  font-weight: 400;
-}
-#mac p {
-  font-size: 3vh;
-  line-height: 10vh;
-  font-weight: 400;
-}
-#mac nav {
-  font-size: 2vh;
-  font-weight: 400;
-  color: #4991d9;
-}
-/* .imgm {
-} */
-
-.imac {
+.header #comp2 .nav {
+  width: 50%;
   display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-top: 10vh;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  justify-content: space-between;
+  flex-direction: row;
+  /* border: 1px solid red; */
 }
-.imac h1 {
-  font-size: 7vh;
-  line-height: 25px;
-  font-weight: 400;
+.header .img {
+  width: 17px;
+  height: 17px;
+  padding: 5px;
 }
-.imac p {
-  font-size: 3vh;
-  line-height: 10vh;
+.header #comp p {
+  color: #bcbdbf;
+  font-size: 12px;
   font-weight: 400;
+  padding: 8px;
 }
-.imac nav {
-  font-size: 2vh;
-  font-weight: 400;
-  color: #4991d9;
+.header .img2 {
+  width: 17px;
+  height: 17px;
+  padding: 5px;
 }

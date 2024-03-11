@@ -1,6 +1,7 @@
 import React from "react";
-import Header from "../component/Header/Header";
-import backgroundimg from "../../src/assets/mac.jpg";
+import Header from "../../component/Header/Header";
+import backgroundimg from "../../assets/mac.jpg";
+import "./home.css";
 const Home = () => {
   return (
     <>
