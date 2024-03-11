@@ -1,0 +1,57 @@
+.dropdown {
+    display: none;
+  }
+  #Support:hover .dropdown {
+    display: block;
+  } 
+  .dropdown{
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .dropdown1{
+    width: 20%;
+  }
+  #drop {
+    display: flex;
+    gap: 0.5%;
+    padding-left: 12%;
+    padding-top: 2%;
+    background-color: rgb(29, 29, 31);
+    padding-bottom:15% ;
+  }
+ .drop2{
+    font-family:  "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(134, 134, 139);
+    size: 12px;
+    line-height: 16px;
+    padding-bottom: 5%;
+ }
+ .drop3{
+    font-family:  "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    size: 70px;
+    line-height: 28px;
+ } 
+ .drop4{
+    font-family:  "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    size: 12px;
+    line-height: 12px; 
+ }
+ .dropdown1 p {
+    margin-bottom: 8px; 
+}
+#support-top-div{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#support-top{
+  width: 135%;
+}
