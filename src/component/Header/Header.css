@@ -1,4 +1,4 @@
-#comp {
+.header #comp {
   display: flex;
   background-color: #3f4144;
   color: #bcbdbf;
@@ -8,25 +8,24 @@
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
-#comp .nav {
+.header #comp .nav {
   width: 50%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   /* border: 1px solid red; */
 }
-.img {
+.header .img {
   width: 17px;
   height: 17px;
-  padding: 5px;
 }
-#comp p {
+.header #comp p {
   color: #bcbdbf;
   font-size: 12px;
   font-weight: 400;
   padding: 8px;
 }
-.img2 {
+.header .img2 {
   width: 17px;
   height: 17px;
   padding: 5px;

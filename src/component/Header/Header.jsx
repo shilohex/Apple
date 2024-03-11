@@ -2,18 +2,18 @@ import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import blacklogo from "../../assets/blacklogo2.svg";
-import large from "../../assets/mac.jpg"
+import mac from "../../assets/mac.jpg";
 
 const Header = ({ bgcol, txtcol }) => {
   return (
-    <>
+    <div className="header">
       <div id="comp" style={{ backgroundColor: bgcol, color: txtcol }}>
         <div className="nav">
           <Link to={"/"}>
             {bgcol == "white" ? (
               <img src={blacklogo} />
             ) : (
-              <img src="\resources\applegrey.svg" alt="" />
+              <img className="img" src="\resources\applegrey.svg" alt="" />
             )}
           </Link>
 
@@ -31,37 +31,7 @@ const Header = ({ bgcol, txtcol }) => {
           </div>
         </div>
       </div>
-
-      <div id="mac">
-        <div>
-          <h1>
-            {" "}
-            <b>MacBook Pro </b>
-          </h1>
-          <p>Mind blowing. Head-turning.</p>
-          <div>
-            <nav>
-              <a href="Learn more >"> Learn more {">"}</a>
-            </nav>
-          </div>
-        </div>
-      </div>
-
-      <section className="imgm">
-        <div>
-          <img className="" width={"500px"} src={large} alt="" />
-        </div>
-      </section>
-      <section className="Imac">
-        <div>
-          <h1>iMac</h1>
-          <p>Packed with more juice.</p>
-          <nav>
-            <a href="Learn more >"> Learn more {">"}</a>
-          </nav>
-        </div>
-      </section>
-    </>
+    </div>
   );
 };
 export default Header;
