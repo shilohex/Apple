@@ -7,10 +7,10 @@
     sans-serif;
   overflow: hidden;
   position: relative;
-  margin-top: 2vh;
+  margin-bottom: 12px;
 }
 #first {
-  padding: 3vh;
+  padding-top: 14vh;
 }
 .mac h1 {
   font-size: 7vh;
@@ -36,26 +36,5 @@
   /* width: 90vh; */
 }
 
-.imac {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-top: 10vh;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-}
-.imac h1 {
-  font-size: 1rem;
-  line-height: 25px;
-  font-weight: 400;
-}
-.imac p {
-  font-size: 3vh;
-  line-height: 10vh;
-  font-weight: 400;
-}
-.imac nav {
-  font-size: 2vh;
-  font-weight: 400;
-  color: #4991d9;
+.mac #sec {
 }
