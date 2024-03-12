@@ -8,7 +8,7 @@ const Home = () => {
       <Header />
       <section>
         <div id="mac">
-          <img src="src\assets\mac.jpg" alt="" />
+          <img src={backgroundimg} alt="" />
           <div className="imgdiv">
             <h1> MacBook Pro</h1>
             <p>Mind blowing. Head-turning.</p>
@@ -20,7 +20,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section>
+      {/* <section>
         <div id="mac">
           <img src="src\assets\mac.jpg" alt="" />
           <div className="imgdiv">
@@ -33,7 +33,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section>
         <div id="">
