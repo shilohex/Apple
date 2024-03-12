@@ -1,5 +1,5 @@
 /* MACBOOK */
-.mac {
+#home .mac {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -9,32 +9,51 @@
   position: relative;
   margin-bottom: 12px;
 }
-#first {
+#home #first {
   padding-top: 14vh;
 }
-.mac h1 {
+#home .mac h1 {
   font-size: 7vh;
-  line-height: 25px;
+  line-height: 8vh;
   font-weight: 400;
 }
-.mac .imgdiv {
+#home .mac .imgdiv {
   position: absolute;
   padding: 10vh;
 }
-.mac p {
-  font-size: 3vh;
-  line-height: 10vh;
+#home .mac p {
+  font-size: 29px;
+  line-height: 5vh;
   font-weight: 400;
 }
-.mac nav {
-  font-size: 2vh;
+#home .nav p {
+  font-size: 20px;
   font-weight: 400;
-  color: #4991d9;
+  line-height: 5vh;
+  color: #0066cc;
 }
-.mac img {
+#home .nav:hover {
+  text-decoration: underline #0066cc;
+  /* text-decoration: #0066cc; */
+}
+#home .nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+#home .mac > img {
   height: 90vh;
   /* width: 90vh; */
 }
 
-.mac #sec {
+#home #third h1 {
+  color: aliceblue;
+}
+#st {
+  color: aliceblue;
+}
+#home .nav p {
+  color: #0066cc;
 }
