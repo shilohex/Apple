@@ -3,14 +3,21 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  margin-top: 10vh;
+  /* margin-top: 1vh; */
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2vh;
 }
 #mac h1 {
   font-size: 7vh;
   line-height: 25px;
   font-weight: 400;
+}
+#mac .imgdiv {
+  position: absolute;
+  padding: 10vh;
 }
 #mac p {
   font-size: 3vh;
@@ -22,8 +29,9 @@
   font-weight: 400;
   color: #4991d9;
 }
-/* .imgm {
-} */
+#mac img {
+  width: 200%;
+}
 
 .imac {
   display: flex;
@@ -34,7 +42,7 @@
     sans-serif;
 }
 .imac h1 {
-  font-size: 7vh;
+  font-size: 1rem;
   line-height: 25px;
   font-weight: 400;
 }
@@ -47,4 +55,8 @@
   font-size: 2vh;
   font-weight: 400;
   color: #4991d9;
+}
+
+#david {
+  height: 90vh;
 }

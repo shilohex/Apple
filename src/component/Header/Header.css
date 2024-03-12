@@ -1,3 +1,10 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
 .header #comp {
   display: flex;
   background-color: #3f4144;
@@ -8,19 +15,20 @@
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
+
 .header #comp .nav {
-  width: 50%;
+  width: 65%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   /* border: 1px solid red; */
 }
-.header .img {
+.header #comp .img {
   width: 17px;
   height: 17px;
 }
 .header #comp p {
-  color: #bcbdbf;
+  color: #898989;
   font-size: 12px;
   font-weight: 400;
   padding: 8px;
