@@ -1,36 +1,39 @@
 /* MACBOOK */
-#mac {
+.mac {
   display: flex;
   text-align: center;
   justify-content: center;
-  /* margin-top: 1vh; */
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   overflow: hidden;
   position: relative;
-  margin-bottom: 2vh;
+  margin-top: 2vh;
 }
-#mac h1 {
+#first {
+  padding: 3vh;
+}
+.mac h1 {
   font-size: 7vh;
   line-height: 25px;
   font-weight: 400;
 }
-#mac .imgdiv {
+.mac .imgdiv {
   position: absolute;
   padding: 10vh;
 }
-#mac p {
+.mac p {
   font-size: 3vh;
   line-height: 10vh;
   font-weight: 400;
 }
-#mac nav {
+.mac nav {
   font-size: 2vh;
   font-weight: 400;
   color: #4991d9;
 }
-#mac img {
-  width: 200%;
+.mac img {
+  height: 90vh;
+  /* width: 90vh; */
 }
 
 .imac {
@@ -55,8 +58,4 @@
   font-size: 2vh;
   font-weight: 400;
   color: #4991d9;
-}
-
-#david {
-  height: 90vh;
 }
