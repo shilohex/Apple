@@ -21,9 +21,9 @@ const Header = ({ bgcol, txtcol }) => {
             <p>Mac</p>
           </Link>
           <Link to={"/ipad"}>
-            <p>ipad</p>
+            <p>iPad</p>
           </Link>
-          <p>iphone</p>
+          <p>iPhone</p>
           <Link to={"/support"} id="Support">
             <p>Support</p>
             <div class="dropdown" id="dropdown">

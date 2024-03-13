@@ -1,5 +1,5 @@
 /* MACBOOK */
-.mac {
+#home .mac {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -7,55 +7,89 @@
     sans-serif;
   overflow: hidden;
   position: relative;
-  margin-top: 2vh;
+  margin-bottom: 12px;
 }
-#first {
-  padding: 3vh;
+#home #first {
+  padding-top: 14vh;
 }
-.mac h1 {
+#home .mac h1 {
   font-size: 7vh;
-  line-height: 25px;
+  line-height: 8vh;
   font-weight: 400;
 }
-.mac .imgdiv {
+#home .mac .imgdiv {
   position: absolute;
   padding: 10vh;
 }
-.mac p {
-  font-size: 3vh;
-  line-height: 10vh;
+#home .mac p {
+  font-size: 29px;
+  line-height: 5vh;
   font-weight: 400;
 }
-.mac nav {
-  font-size: 2vh;
+#home .nav > p {
+  font-size: 20px;
   font-weight: 400;
-  color: #4991d9;
+  line-height: 5vh;
+  color: #0066cc;
 }
-.mac img {
+#home .nav:hover {
+  text-decoration: underline #0066cc;
+  /* text-decoration: #0066cc; */
+}
+#home .nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+#home .mac > img {
   height: 90vh;
   /* width: 90vh; */
 }
 
-.imac {
+#home #third h1 {
+  color: aliceblue;
+}
+#st {
+  color: aliceblue;
+}
+#home .nav p {
+  color: #0066cc;
+}
+/* nextlane */
+
+.david {
   display: flex;
-  text-align: center;
+  gap: 0.7vw;
+  padding: 0 0.7vw 0.7vw;
+}
+.david .imgdiv {
+  padding: 10vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.david > div {
+  overflow: hidden;
+  display: flex;
   justify-content: center;
-  margin-top: 10vh;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  position: relative;
 }
-.imac h1 {
-  font-size: 1rem;
-  line-height: 25px;
+#home .david h1 {
+  font-size: 7vh;
+  line-height: 8vh;
   font-weight: 400;
 }
-.imac p {
-  font-size: 3vh;
-  line-height: 10vh;
+#home .david p {
+  font-size: 29px;
+  line-height: 5vh;
   font-weight: 400;
 }
-.imac nav {
-  font-size: 2vh;
+#home .david .nav > p {
+  font-size: 20px;
   font-weight: 400;
-  color: #4991d9;
+  line-height: 5vh;
+  color: #0066cc;
 }
