@@ -89,8 +89,17 @@ const Support = () => {
           </div>
         </div>
       </div>
+      <div id="sec5">
+        <div id="sec5a">
+        <p id="sec5b">My Support</p>
+        <p id="sec5c">Get up to date information about your Apple products including coverage, repairs, and much more.</p>
+       <div id="sec5f">
+        <p id="sec5d">Sign in to My Support <p id="sec5e"> &gt;</p> </p>
+       </div>
+        </div>
+      </div>
     </div>
-  );
+  )
 };
 
 export default Support;

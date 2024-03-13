@@ -178,7 +178,7 @@ width: 2%;
   padding: 0.75rem;
 }
 #support #sec4b:focus-within{
-  outline: 4px solid blue;
+  outline: 4px solid #5264AE;
 }
 #support #sec4c-div{
   position: relative;
@@ -188,7 +188,7 @@ width: 2%;
   font-size: 16px;
   padding: 10px 10px 10px 5px;
   display: block;
-  width: 200px;
+  width: 69%;
   border: none;
   background: transparent;
  }
@@ -214,4 +214,52 @@ width: 2%;
   top: -5px;
   font-size: 14px;
   color: #5264AE;
+ }
+ #support #sec5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+#support #sec5a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 69%;
+  height: 25vh;
+  border: solid black 1px;
+  margin-bottom: 1%;
+  border-radius: 15px;
+  gap: 5%;
+}
+#support #sec5b{
+   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+   Arial, sans-serif;
+   font-weight: 600;
+   size: 40px;
+   line-height: 44px;
+ }
+ #support #sec5c{
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+  Arial, sans-serif;
+  font-weight: 400;
+  size: 17px;
+  line-height: 25px;
+ }
+ #support #sec5d{
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+  Arial, sans-serif;
+  font-weight: 400;
+  size: 17px;
+  line-height: 25px;
+  color: rgb(0, 102, 204);
+ }
+ #support #sec5f{
+  display: flex;
+flex-direction: row;
+ }
+ #support #sec5e{
+  font-size: 0.8em; 
  }
