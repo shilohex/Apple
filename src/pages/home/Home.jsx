@@ -9,6 +9,7 @@ import background4 from "../../assets/promoiphone.jpg";
 import background5 from "../../assets/ipad.jpg";
 import background6 from "../../assets/black.jpg";
 import background7 from "../../assets/drive.jpg";
+import disk from "../../assets/disk.png";
 
 const Home = () => {
   return (
@@ -48,7 +49,7 @@ const Home = () => {
           <div className="mac" id="third">
             <img src={background3} alt="" />
             <div className="imgdiv">
-              <h1> iPhone 15 Pro</h1>
+              <h1> iPhone 15 Pro </h1>
               <p id="st">Titanium. So strong. So light. So Pro</p>
               <div className="nav">
                 <p>Learn more</p>
@@ -75,8 +76,8 @@ const Home = () => {
             <div>
               <img src={background5} alt="" />
               <div className="imgdiv">
-                <h1> iPhone 15 </h1>
-                <p>New camera. New design. Newphoria</p>
+                <h1> iPad </h1>
+                <p> Loveable. Drawable. Magical</p>
                 <div className="nav">
                   <p>Learn more</p>
                   <img src={sign} alt="" />
@@ -88,9 +89,11 @@ const Home = () => {
           <div className="box">
             <div>
               <img src={background6} alt="" />
-              <div className="imgdiv">
-                <h1> iPhone 15 </h1>
-                <p>New camera. New design. Newphoria</p>
+              <div className="imgdiv" id="color">
+                <h1> iPad Pro </h1>
+                <p>
+                  Supercharged by <img src={disk} alt="" />
+                </p>
                 <div className="nav">
                   <p>Learn more</p>
                   <img src={sign} alt="" />
@@ -101,12 +104,42 @@ const Home = () => {
             <div>
               <img src={background7} alt="" />
               <div className="imgdiv">
-                <h1> iPhone 15 </h1>
-                <p>New camera. New design. Newphoria</p>
+                <h1> Mac Studio </h1>
+                <p>Supercharged by M2 Max and M2 Ultra.</p>
                 <div className="nav">
                   <p>Learn more</p>
                   <img src={sign} alt="" />
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="footer">
+            <div className="ftxt">
+              <h5>Explore</h5>
+              <p>Mac</p>
+              <p>iPad</p>
+              <p>iPhone</p>
+
+              <div>
+                <h5>Account</h5>
+                <p>Manage your Apple ID</p>
+              </div>
+
+              <div>
+                <h5>Apples Values</h5>
+                <p>Privacy</p>
+              </div>
+
+              <div>
+                <h5>About Apple</h5>
+                <p>Newsroom</p>
+                <p>Apple Leadership</p>
+                <p>Career Opportunities</p>
+                <p>Investors</p>
+                <p>Ethics and compliance</p>
               </div>
             </div>
           </div>

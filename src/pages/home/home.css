@@ -63,9 +63,12 @@
   display: flex;
   gap: 0.7vw;
   padding: 0 0.7vw 0.7vw;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 .box .imgdiv {
-  padding: 10vh;
+  padding: 10px;
+  margin-top: 50px;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -78,18 +81,37 @@
   position: relative;
 }
 #home .box h1 {
-  font-size: 7vh;
-  line-height: 8vh;
-  font-weight: 400;
+  font-size: 40px;
+  line-height: 4vh;
+  font-weight: 550;
 }
 #home .box p {
-  font-size: 29px;
+  font-size: 20px;
   line-height: 5vh;
   font-weight: 400;
 }
 #home .box .nav > p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 5vh;
+  line-height: 2vh;
   color: #0066cc;
+}
+#color p {
+  display: flex;
+}
+#color {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #f5f5f5;
+}
+
+/* footer design */
+.footer {
+  /* border: 1px solid black; */
+  height: 35vh;
+  background-color: #f5f5f5;
+}
+
+.ftxt {
+  display: flex;
 }
