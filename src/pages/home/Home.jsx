@@ -117,29 +117,33 @@ const Home = () => {
 
         <section>
           <div className="footer">
-            <div className="ftxt">
-              <h5>Explore</h5>
-              <p>Mac</p>
-              <p>iPad</p>
-              <p>iPhone</p>
+            <div id="nxt">
+              <div className="ftxt">
+                <div className="txt">
+                  <h4>Explore</h4>
+                  <p>Mac</p>
+                  <p>iPad</p>
+                  <p>iPhone</p>
+                </div>
 
-              <div>
-                <h5>Account</h5>
-                <p>Manage your Apple ID</p>
-              </div>
+                <div className="txt">
+                  <h4>Account</h4>
+                  <p>Manage your Apple ID</p>
+                </div>
 
-              <div>
-                <h5>Apples Values</h5>
-                <p>Privacy</p>
-              </div>
+                <div className="txt">
+                  <h4>Apples Values</h4>
+                  <p>Privacy</p>
+                </div>
 
-              <div>
-                <h5>About Apple</h5>
-                <p>Newsroom</p>
-                <p>Apple Leadership</p>
-                <p>Career Opportunities</p>
-                <p>Investors</p>
-                <p>Ethics and compliance</p>
+                <div className="txt">
+                  <h4>About Apple</h4>
+                  <p>Newsroom</p>
+                  <p>Apple Leadership</p>
+                  <p>Career Opportunities</p>
+                  <p>Investors</p>
+                  <p>Ethics and compliance</p>
+                </div>
               </div>
             </div>
           </div>
