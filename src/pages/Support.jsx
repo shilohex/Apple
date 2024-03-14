@@ -110,7 +110,13 @@ const Support = () => {
         </div>
       </div>
       <footer>
-
+        <hr />
+        <div id="sec7">
+        <img src={top11} alt="" />
+        <p> &gt;</p>
+        <p>Support</p>
+        </div>
+         <hr />
       </footer>
     </div>
   );

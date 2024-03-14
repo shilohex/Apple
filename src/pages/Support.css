@@ -232,10 +232,10 @@
   flex-direction: column;
   width: 69%;
   height: 25vh;
-  border: solid black 1px;
   margin-bottom: 1%;
   border-radius: 15px;
   gap: 5%;
+  background-color: #ffffff;
 }
 #support #sec5b {
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
@@ -277,7 +277,6 @@
   display: flex;
   width: 69%;
   flex-direction: column;
-  border: solid black 1px;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 17px; /* Use 'font-size' instead of 'size' */
@@ -287,6 +286,7 @@
   margin-bottom: 5%;
   padding-bottom: 3%;
   border-radius: 15px;
+  background-color: #ffffff;
 }
 
 #support #sec6a {
@@ -317,6 +317,21 @@
 }
 #support #sec6c, #sec6d{
   margin:  0 6% 0 7%;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 3%;
+  background-color: rgb(245, 245, 247);
+}
+#support #sec7{
+  display: flex;
+  width: 69%;
+  justify-content: start;
+  align-items: start;
 }
 
 
