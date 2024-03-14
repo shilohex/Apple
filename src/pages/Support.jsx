@@ -91,15 +91,29 @@ const Support = () => {
       </div>
       <div id="sec5">
         <div id="sec5a">
-        <p id="sec5b">My Support</p>
-        <p id="sec5c">Get up to date information about your Apple products including coverage, repairs, and much more.</p>
-       <div id="sec5f">
-        <p id="sec5d">Sign in to My Support <p id="sec5e"> &gt;</p> </p>
-       </div>
+          <p id="sec5b">My Support</p>
+          <p id="sec5c">
+            Get up to date information about your Apple products including
+            coverage, repairs, and much more.
+          </p>
+          <div id="sec5f">
+            <div id="sec55">
+              {" "}
+              <p id="sec5d">Sign in to My Support </p> <p id="sec5e"> &gt;</p>{" "}
+            </div>
+          </div>
+        </div>
+        <div id="sec6">
+          <p id="sec6a">Beware of counterfeit parts</p>
+         <span id="sec6c">Some counterfeit and third party power adapters and batteries may not be designed properly and could result in safety issues. To ensure you receive a genuine Apple battery during a battery replacement, we recommend visiting an <span id="sec6b">Apple Authorized Service Provider</span>. If you need a replacement adapter to charge your Apple device, we recommend getting an Apple power adapter.</span>
+          <p id="sec6d">Also non-genuine replacement displays may have compromised visual quality and may fail to work correctly. Apple-certified screen repairs are performed by trusted experts who use genuine Apple parts.</p>
         </div>
       </div>
+      <footer>
+
+      </footer>
     </div>
-  )
+  );
 };
 
 export default Support;
