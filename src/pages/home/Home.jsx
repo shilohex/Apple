@@ -10,6 +10,7 @@ import background5 from "../../assets/ipad.jpg";
 import background6 from "../../assets/black.jpg";
 import background7 from "../../assets/drive.jpg";
 import disk from "../../assets/disk.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -107,7 +108,9 @@ const Home = () => {
                 <h1> Mac Studio </h1>
                 <p>Supercharged by M2 Max and M2 Ultra.</p>
                 <div className="nav">
-                  <p>Learn more</p>
+                  <p>
+                    <Link to={"/Mac"}>Learn more</Link>
+                  </p>
                   <img src={sign} alt="" />
                 </div>
               </div>
@@ -115,37 +118,55 @@ const Home = () => {
           </div>
         </section>
 
-        <section>
-          <div className="footer">
-            <div id="nxt">
-              <div className="ftxt">
-                <div className="txt">
-                  <h4>Explore</h4>
-                  <p>Mac</p>
-                  <p>iPad</p>
-                  <p>iPhone</p>
-                </div>
+        <section className="footer">
+          <div className="footer-top">
+            <div className="txt" id="ano">
+              <h4>Explore</h4>
+              <p>Mac</p>
+              <p>iPad</p>
+              <p>iPhone</p>
+            </div>
 
-                <div className="txt">
-                  <h4>Account</h4>
-                  <p>Manage your Apple ID</p>
-                </div>
+            <div className="txt" id="move">
+              <h4>Account</h4>
+              <p>Manage your Apple ID</p>
+              <p>iCloud.com</p>
+            </div>
 
-                <div className="txt">
-                  <h4>Apples Values</h4>
-                  <p>Privacy</p>
-                </div>
+            <div className="txt">
+              <h4>Apples Values</h4>
+              <p>Privacy</p>
+            </div>
 
-                <div className="txt">
-                  <h4>About Apple</h4>
-                  <p>Newsroom</p>
-                  <p>Apple Leadership</p>
-                  <p>Career Opportunities</p>
-                  <p>Investors</p>
-                  <p>Ethics and compliance</p>
-                </div>
+            <div className="txt" id="ano2">
+              <h4>About Apple</h4>
+              <p>Newsroom</p>
+              <p>Apple Leadership</p>
+              <p>Career Opportunities</p>
+              <p>Investors</p>
+              <p>Ethics and compliance</p>
+            </div>
+          </div>
+          <div className="foot2">
+            <div className="text">
+              <Link>
+                <p> Find a retailer</p>
+              </Link>
+              <p>near you</p>
+            </div>
+            <hr />
+          </div>
+          <div className="foot3">
+            <div className="foot3a">
+              <p>Copyright © 2024 Apple Inc.</p>
+              <p>All rights reserved.</p>
+              <div className="foot3aa">
+                <Link className="link">Terms of Use</Link>
+                <span>|</span>
+                <Link className="link">Site Map</Link>
               </div>
             </div>
+            <Link className="link">Nigeria</Link>
           </div>
         </section>
       </div>

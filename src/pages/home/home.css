@@ -35,7 +35,9 @@
 #home .nav:hover {
   text-decoration: underline #0066cc;
   /* text-decoration: #0066cc; */
+  cursor: pointer;
 }
+
 #home .nav {
   display: flex;
   align-items: center;
@@ -107,45 +109,71 @@
 
 /* footer design */
 .footer {
-  /* border: 1px solid black; */
-  height: 35vh;
   background-color: #f5f5f5;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-#nxt {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  /* border: solid black 1px; */
-  height: 100%;
-}
-.ftxt {
-  /* border: 1px solid black; */
-  display: flex;
-  gap: 20%;
-  text-align: center;
-  justify-content: space-around;
+  padding: 2vh 21.3vw;
+  font-size: 12px;
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  font-size: 12px;
-  width: 50%;
-  height: 80%;
-  padding: 1% 20% 0 10%;
-  justify-content: center;
+  color: #000000b8;
+}
+.footer-top {
+  display: flex;
+  justify-content: start;
+  gap: 16.5%;
+  align-items: start;
 }
 
 .txt {
   justify-content: start;
   display: flex;
-  gap: 10px;
+  gap: 12px;
   flex-direction: column;
   align-items: start;
-  text-align: start;
-  color: #8d8d8e;
+  /*text-align: start;
+  color: #8d8d8e; */
 }
 .txt h4 {
+  color: #000000e0;
+  font-size: 12px;
+}
+.txt p:hover {
+  text-decoration: underline #575758;
+  cursor: pointer;
+}
+
+/* next line */
+.foot2 {
+  background-color: #f5f5f5;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  margin-top: 60px;
+  display: flex;
+  gap: 4px;
+}
+.foot2 hr {
+  margin: 1.5vh 0;
+  color: #0000008f;
+}
+.foot3 {
+  display: flex;
+  justify-content: space-between;
+}
+.foot3a {
+  display: flex;
+  gap: 10px;
+}
+.foot3aa {
+  display: flex;
+  gap: 4px;
+}
+.link {
+  text-decoration: none;
   color: #575758;
-  font-size: ;
+}
+.link:hover {
+  text-decoration: underline #575758;
+  cursor: pointer;
 }
