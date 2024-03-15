@@ -18,4 +18,12 @@ function App() {
   );
 }
 
+// const Support = () => {
+//   useEffect(() => {
+//     document.title = "Supportpage - Apple"; 
+//   }, []);
+
+//   return <div>Official Apple Support</div>;
+// };
+
 export default App;

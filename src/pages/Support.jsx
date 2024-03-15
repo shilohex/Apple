@@ -79,7 +79,7 @@ const Support = () => {
       </div>
       <div id="sec4">
         <div id="sec4a">
-          <p>Search for more topics</p>
+          <h1>Search for more topics</h1>
         </div>
         <div id="sec4b">
           <img src={top8} alt="" />
@@ -91,7 +91,7 @@ const Support = () => {
       </div>
       <div id="sec5">
         <div id="sec5a">
-          <p id="sec5b">My Support</p>
+          <h1 id="sec5b">My Support</h1>
           <p id="sec5c">
             Get up to date information about your Apple products including
             coverage, repairs, and much more.
@@ -104,7 +104,7 @@ const Support = () => {
           </div>
         </div>
         <div id="sec6">
-          <p id="sec6a">Beware of counterfeit parts</p>
+          <h2 id="sec6a">Beware of counterfeit parts</h2>
          <span id="sec6c">Some counterfeit and third party power adapters and batteries may not be designed properly and could result in safety issues. To ensure you receive a genuine Apple battery during a battery replacement, we recommend visiting an <span id="sec6b">Apple Authorized Service Provider</span>. If you need a replacement adapter to charge your Apple device, we recommend getting an Apple power adapter.</span>
           <p id="sec6d">Also non-genuine replacement displays may have compromised visual quality and may fail to work correctly. Apple-certified screen repairs are performed by trusted experts who use genuine Apple parts.</p>
         </div>
@@ -113,10 +113,54 @@ const Support = () => {
         <hr />
         <div id="sec7">
         <img src={top11} alt="" />
-        <p> &gt;</p>
+        <p id="kk"> &gt;</p>
         <p>Support</p>
         </div>
+        <div id="sec7a">
+          <div className="hov">
+          <h4>Product Support</h4>
+           <p>iPhone</p>
+           <p>Mac</p>
+           <p>iPad</p>
+           <p>Music</p>
+        </div>
+        <div className="hov">
+          <h4>Service and Repair</h4>
+          <p>Hardware Warranties</p>
+          <p>Software License Agreement</p>
+          <p>Complimentary Support</p>
+        </div>
+        <div  className="hov">
+          <h4>Resources</h4>
+          <p>My Support</p>
+          <p>Downloads</p>
+          <p>Manuals</p>
+          <p>Tech Specs</p>
+        </div>
+        <div  className="hov">
+          <h4>Connect</h4>
+          <p>Contact Us</p>
+          <p>Phone Numbers</p>
+          <p>Apple Communities</p>
+          <p>Apple Support Videos</p>
+          <p>@AppleSupport</p>
+        </div>
+          </div>
          <hr />
+           <div id="sec7b"> 
+           <div id="sec7e"> 
+            <div id="sec7c">
+            <p>Copyright © 2024 Apple Inc.</p>
+            <p>All rights reserved.</p>
+            </div>
+            <div id="sec7d">
+           <p>Terms of Use</p>
+             <div id="line"> </div>
+           <p> Site Map</p>
+            </div>
+            </div>
+           <p>Nigeria</p>
+           </div>
       </footer>
     </div>
   );
