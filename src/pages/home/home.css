@@ -32,6 +32,7 @@
   line-height: 5vh;
   color: #0066cc;
 }
+
 #home .nav:hover {
   text-decoration: underline #0066cc;
   /* text-decoration: #0066cc; */
